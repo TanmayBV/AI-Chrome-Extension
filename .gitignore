@@ -1,0 +1,63 @@
+# =========================
+# Python (Backend)
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+
+# Environment variables
+.env
+
+# FastAPI / Logs
+*.log
+
+# =========================
+# LangChain / AI / Data
+# =========================
+*.db
+*.sqlite3
+*.faiss
+*.pkl
+*.bin
+
+# Vector DB / embeddings cache
+faiss_index/
+vectorstore/
+
+# =========================
+# Node / Extension (if needed later)
+# =========================
+node_modules/
+dist/
+build/
+
+# =========================
+# Chrome Extension
+# =========================
+# Ignore packaging files
+*.zip
+*.crx
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE Files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
